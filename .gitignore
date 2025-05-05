@@ -1,0 +1,27 @@
+# Python virtual environments
+zv1-bot/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment folders
+.env/
+.venv/
+venv/
+env/
+
+# MacOS metadata
+.DS_Store
+
+# FAISS index (optional – you can regenerate it)
+*.index
+
+# Ollama model cache (if ever used)
+ollama/
+
+# Logs or temp
+*.log
+*.tmp
