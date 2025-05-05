@@ -1,0 +1,8 @@
+faiss-cpu==1.11.0
+sentence-transformers==2.2.2
+PyMuPDF==1.23.20
+numpy==1.26.4
+requests==2.32.3
+tqdm==4.67.1
+torch==2.1.2
+transformers==4.36.2
