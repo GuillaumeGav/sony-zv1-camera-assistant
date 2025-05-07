@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+faiss-cpu==1.11.0
+sentence-transformers==4.1.0
+huggingface-hub==0.30.2
+numpy==1.26.4
+requests==2.32.3
+PyMuPDF==1.23.20
+torch==2.1.2
+transformers==4.51.3
+tqdm==4.67.1
