@@ -23,7 +23,7 @@ def build_prompt(question, retrieved_chunks):
     context = "\n\n".join([
         f"[Page {chunk['page']}] {chunk['text']}" for chunk in retrieved_chunks
     ])
-
+    # prompt for the LLM, can be change optimize according to the need
     prompt = f"""You are a helpful assistant answering based on the Sony ZV-1 camera manual.
 
 Use the following manual content to answer the user's question as clearly and accurately as possible.
@@ -78,7 +78,7 @@ def ask(question, index, metadata, embedding_model, llm_model_name="mistral", to
     print(answer)
     return answer
 
-
+# function to in
 def setup_assistant():
     model = SentenceTransformer("all-MiniLM-L6-v2")
     index = load_index("zv1_faiss.index")
