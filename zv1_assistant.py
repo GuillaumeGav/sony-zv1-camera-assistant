@@ -79,11 +79,12 @@ def ask(question, index, metadata, embedding_model, llm_model_name="mistral", to
     return answer
 
 
+def setup_assistant():
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    index = load_index("zv1_faiss.index")
+    metadata = load_metadata("zv1_metadata.json")
+    return index, model, metadata
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
-index = load_index("zv1_faiss.index")
-metadata = load_metadata("zv1_metadata.json")
-
-# what we need to ask a question to our gpt and get a response
-query = "how to have shoot a video in manual mode?"
-ask(query, index, metadata, model)
+# # what we need to ask a question to our gpt and get a response
+# query = "how to have shoot a video in manual mode?"
+# ask(query, index, metadata, model)
