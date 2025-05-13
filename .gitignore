@@ -7,21 +7,40 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Environment folders
-.env/
+# Virtuelle Umgebungen
+.env
 .venv/
 venv/
 env/
 
-# MacOS metadata
+# System-Dateien (Mac, VS Code, PyCharm etc.)
 .DS_Store
+.vscode/
+.idea/
 
-# FAISS index (optional – you can regenerate it)
+# FAISS Index (optional – kann regeneriert werden)
 *.index
+*.npy
+*.npz
 
-# Ollama model cache (if ever used)
-ollama/
+# Streamlit cache (optional)
+.streamlit/
 
-# Logs or temp
+# Logs & temporäre Dateien
 *.log
 *.tmp
+
+# Docker-Dateien
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+.docker/
+
+# GCP/Cloud-Zugangsdaten
+.gcloud/
+.config/gcloud/
+gcloud-key.json
+credentials.json
+
+# Ollama (falls irgendwann dockerized oder als Service eingebunden)
+ollama/
