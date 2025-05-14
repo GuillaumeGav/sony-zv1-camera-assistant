@@ -18,4 +18,4 @@ if st.button("Search"):
     if in_question.strip():
         response = requests.get(url,params={"question":in_question})
         answer = response.json().get('zv1_assistant')
-        st.text("zv1 bot : " + answer)
+        st.markdown(f"<div style='white-space: pre-wrap;'>zv1-bot : {answer}</div>", unsafe_allow_html=True)
