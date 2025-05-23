@@ -287,7 +287,7 @@
   {
     "page": 30,
     "chunk_id": "page_30_chunk_2",
-    "text": "ters corresponding to that key will be displayed one-by-one in order.\nFor example: If you want to enter \u201cabd\u201d\n3.\nPress the key for \u201cabc\u201d once to display \u201ca.\u201d\n1.\nPress \u201c\n\u201d (the right-pointing arrow in the \u201cMove cursor\u201d area, marked as No.5).\n2.\nPress the key for \u201cabc\u201d twice to display \u201cb.\u201d\n3.\nPress the key for \u201cdef\u201d once to display \u201cd.\u201d\n4.\nFinalize  \nFinalizes the entered characters.\n4.\nMove cursor  \nMoves the cursor in the input box to the right or left.\n5.\nDelete  \nDeletes the character preceding the cursor.\n6.\n (upward-pointing arrow)  \nSwitches the next character to a capital or lowercase letter.\n7.\n (space)  \nEnters a space.\n8.\n29"
+    "text": "ters corresponding to that key will be displayed one-by-one in order.\nFor example: If you want to enter \u201cabd\u201d\n3.\nPress the key for \u201cabc\u201d once to display \u201ca.\u201d\n1.\nPress \u201c\n\u201d (the right-pointing arrow in the \u201cMove cursor\u201d area, marked as No.5).\n2.\nPress the key for \u201cabc\u201d twice to display \u201cb.\u201d\n3.\n4. Press the key for \u201cdef\u201d once to display \u201cd.\u201d\nFinalize  \nFinalizes the entered characters.\n4.\nMove cursor  \nMoves the cursor in the input box to the right or left.\n5.\nDelete  \nDeletes the character preceding the cursor.\n6.\n (upward-pointing arrow)  \nSwitches the next character to a capital or lowercase letter.\n7.\n (space)  \nEnters a space.\n8.\n29"
   },
   {
     "page": 30,

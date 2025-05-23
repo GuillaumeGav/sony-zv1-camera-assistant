@@ -851,8 +851,7 @@ Press “
 2.
 Press the key for “abc” twice to display “b.”
 3.
-Press the key for “def” once to display “d.”
-4.
+4. Press the key for “def” once to display “d.”
 Finalize  
 Finalizes the entered characters.
 4.
